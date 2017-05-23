@@ -1,5 +1,7 @@
 // Step 1: When the user clicks on the h1
-	// a) Fade toggle the img (which is hidden with css by default)
+  $('h1').click('slow', function() {
+    $('img').fadeToggle();
+  })// a) Fade toggle the img (which is hidden with css by default)
 
 
 // Step 2: When the user focuses on the input (the focus event)
