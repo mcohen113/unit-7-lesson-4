@@ -20,7 +20,9 @@ $('#menu').hide();// Step 4: Hide the item with the id #menu
 
 
 // Step 5: When the element with the id #dropdownButton is clicked,
-	// a) slide toggle #menu (look up the slideToggle method if you need a refresher)
+$('#dropdownButton').click('slow', function(event) {
+  $('#menu').slideToggle();/* Act on the event */
+});// a) slide toggle #menu (look up the slideToggle method if you need a refresher)
 
 
 
