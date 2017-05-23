@@ -16,8 +16,7 @@ $('input').mouseout(function(event) {
 });	// a) Remove the active class from the input
 
 
-
-// Step 4: Hide the item with the id #menu
+$('#menu').hide();// Step 4: Hide the item with the id #menu
 
 
 // Step 5: When the element with the id #dropdownButton is clicked,
